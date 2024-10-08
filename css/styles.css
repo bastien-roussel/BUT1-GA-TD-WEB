@@ -34,3 +34,17 @@ body{
     text-decoration: none;
     color: inherit;
 }
+
+/* EXO 3 */
+
+.mon-trop-bo-btn{
+    border-radius: 2em;
+    background-color: rgb(155, 255, 155);
+    padding: 1.5em
+}
+
+
+.mon-trop-bo-btn:hover{
+    background-color: #353535;
+    color: white;
+}
