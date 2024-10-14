@@ -48,3 +48,45 @@ body{
     background-color: #353535;
     color: white;
 }
+
+
+
+
+/* EXO 4 */
+.mes-articles{
+    margin: 2em;
+    border: 2px dashed grey;
+    padding: 1em;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../assets/fonts/Roboto/Roboto-Black.ttf");
+}
+
+.titre-article{
+    font-family: "Roboto", Helvetica, sans-serif;
+}
+
+.auteur{
+    font-style: italic;
+    font-size: 0.6em;
+}
+
+
+
+/* exo 5 - FLEX */
+.flex-div-parent{
+    width: 50em;
+    height: 20em;
+    background-color: blue;
+}
+
+
+.flex-div1,
+.flex-div2,
+.flex-div3{
+    width: 10em;
+    height: 10em;
+    background-color: green;
+}
