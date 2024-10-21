@@ -80,6 +80,10 @@ body{
     width: 50em;
     height: 20em;
     background-color: blue;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 
@@ -89,4 +93,38 @@ body{
     width: 10em;
     height: 10em;
     background-color: green;
+}
+
+.flex-div1{
+    display: flex;
+    align-items: flex-end;
+}
+
+.flex-div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-div3{
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+}
+
+
+/* EXO BOOTSTRAP */
+
+.une-classe-perso{
+    color: red;
+    background-color: grey;
+}
+
+
+.col-perso-1{
+    background-color: green;
+}
+
+.col-perso-2{
+    background-color: blue;
 }
