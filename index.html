@@ -105,6 +105,59 @@
     <br><br><br><br><br>
 
 
+    <!-- EXO FORMULAIRE-->
+    <section>
+        <h2>Un formulaire</h2>
+
+        <form action="">
+
+            <div>
+                <label for="form_nom">NOM </label>
+                <input type="text" name="nom" id="form_nom" placeholder="Bombeur" required />
+                
+                <label for="form_prenom">Prénom </label>
+                <input type="text" name="prenom" id="form_prenom" placeholder="Jean" required />
+            </div>
+
+            <div>
+                <label for="form_mdp">Mot de passe</label>
+                <input type="password" name="mdp" id="form_mdp" required>
+            </div>
+
+            <div>
+                <label for="form_mail">Mail</label>
+                <input type="email" name="mail" id="form_mail" required>
+            </div>
+            
+            <div>
+                <p>Accepter les CGU ?</p>
+                <div>
+                    <input type="radio" id="form_cgu_oui" name="cgu" value="oui" />
+                    <label for="form_cgu_oui">Oui</label>
+                </div>
+                
+                <div>
+                    <input type="radio" id="form_cgu_non" name="cgu" value="non" />
+                    <label for="form_cgu_non">Non</label>
+                </div>
+                
+            </div>
+
+            <div>
+                <label for="form_zone-txt">Message</label>
+                <textarea name="zone-txt" id="form_zone-txt" rows="15"></textarea>
+            </div>
+
+            <div>
+                <button type="reset">RAZ</button>
+                <button type="submit">Envoyer</button>
+            </div>
+        </form>
+    </section>
+
+    <br><br><br><br><br>
+
+
     <!--EXO 3-->
     <footer>
         <img width="150" src="https://static.nationalgeographic.fr/files/styles/image_3200/public/cexpad.jpg?w=1900&h=1262" alt="Un super singe avec un gros pif">
