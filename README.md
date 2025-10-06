@@ -9,7 +9,7 @@ Vous trouverez ici tout le contenu des exercices HTML vu ensemble en TD.
 - [x] Exercice 2
 - [x] Exercice 3
 - [x] Exercice 4
-- [] Formulaire
+- [x] Formulaire
 - [] Maquette
 
 ## COMMENT TELECHARGER LE CODE
