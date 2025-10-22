@@ -43,3 +43,47 @@ a{
     color: white;
     cursor: pointer;
 }
+
+
+/* exo 4 */
+
+.section-articles{
+    margin: 1.5em;
+}
+
+article{
+    border: black 2px dashed;
+    margin: 1em;
+    padding: 1em;
+}
+
+.auteur{
+    font-style: italic;
+    font-size: small;
+}
+
+h1, h2, h3{
+    font-family: "ROBOTO", Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: "ROBOTO";
+    src: url("../assets/fonts/Roboto/Roboto-Italic-VariableFont_wdth\,wght.ttf");
+}
+
+
+/* exo 5 */
+.flex-div-parent{
+    width: 50em;
+    height: 20em;
+    background-color: blue;
+}
+
+.flex-div1,
+.flex-div2,
+.flex-div3{
+    width: 10em;
+    height: 10em;
+    background-color: green;
+}
+
