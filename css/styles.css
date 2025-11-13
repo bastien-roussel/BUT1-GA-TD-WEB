@@ -77,6 +77,11 @@ h1, h2, h3{
     width: 50em;
     height: 20em;
     background-color: blue;
+
+    /* FLEX */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .flex-div1,
@@ -87,3 +92,19 @@ h1, h2, h3{
     background-color: green;
 }
 
+.flex-div1{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.flex-div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-div3{
+    display: flex;
+    justify-content: end;
+}
