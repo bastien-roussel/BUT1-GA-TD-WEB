@@ -108,3 +108,18 @@ h1, h2, h3{
     display: flex;
     justify-content: end;
 }
+
+
+
+.colPerso1{
+    background-color: red;
+}
+
+.colPerso2{
+    background-color: green;
+}
+
+
+.colPerso3{
+    background-color: blue;
+}
