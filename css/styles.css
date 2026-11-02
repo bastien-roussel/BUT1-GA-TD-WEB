@@ -1,9 +1,31 @@
+body{
+    margin: 0;
+}
+
 #mon-titre{
     color: blue;
     font-weight: bolder;
     text-align: center;
+    margin: 0;
 }
 
 .mon-super-header{
     background-color: #8a8a8a;
+    padding: 50px 15px 50px 15px;
+}
+
+/* exo 2 */
+.mon-menu{
+    list-style-type: none;
+}
+
+.mes-items{
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.mes-items a{
+    text-decoration: none;
+    color: black
 }
