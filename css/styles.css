@@ -29,3 +29,16 @@ body{
     text-decoration: none;
     color: black
 }
+
+/* exo 3  */
+.mon-bo-btn{
+    border-radius: 20px;
+    background-color: rgb(184, 255, 184);
+    padding: 2em;
+}
+
+.mon-bo-btn:hover{
+    background-color: #3a3a3a;
+    color: white;
+    cursor: pointer;
+}
