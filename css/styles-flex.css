@@ -1,0 +1,29 @@
+.flex-div-parent{
+    width: 50em;
+    height: 20em;
+    background-color: blue;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-div1, .flex-div2, .flex-div3{
+    width: 10em;
+    height: 10em;
+    background-color: green;
+
+    display: flex;
+}
+
+.flex-div1{
+    align-items: flex-end;
+}
+.flex-div2{
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-div3{
+    justify-content: flex-end;
+}
